@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #28082008;
+        }
+        h1 { text-align: center; color: #333; margin-bottom: 20px; }
+        
+        /* Estilos para las líneas de texto */
+        .intro-text {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        .proyecto { text-align: center; overflow: hidden; }
+        h2 { color: #555; font-size: 1.2em; }
+        
+        /* Efecto de zoom */
+        img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mi Portafolio Tae 3</h1>
+
+    <!-- Aquí tienes tus 3 líneas para escribir -->
+    <div class="intro-text">
+        <p>En este apartado se muestran trabajos hechos durante el primer semestre de la TAE de fotografia</p>
+          <p>temas como la historia de la camara,fotos en bulbo, o fotografias en punto y linea</p>
+               <p>asi como perspectiva forzada,entre otros.</p>
+    </div>
+
+    
+    <div class="grid-container">
+        <div class="proyecto">
+            <h2>DAGUERROTIPO</h2>
+            <img src="daguerrotipo.png" alt="Proyecto 1">
+        </div>
+        <div class="proyecto">
+            <h2>SIMULADOR</h2>
+            <img src="simulador.1.png" alt="Proyecto 2">
+        </div>
+        <div class="proyecto">
+            <h2>SIMULADOR</h2>
+            <img src="helicoptero.png" alt="Proyecto 3">
+        </div>
+        <div class="proyecto">
+            <h2>BULBO</h2>
+            <img src="IMG-20241122-WA0010.jpg" alt="Proyecto 4">
+        </div>
+        <div class="proyecto">
+            <h2>PHOTOSHOP</h2>
+            <img src="mundo.png" alt="Proyecto 5">
+        </div>
+        <div class="proyecto">
+            <h2>VECTORES</h2>
+            <img src="cactus.png" alt="Proyecto 6">
+        </div>
+        <div class="proyecto">
+            <h2>PERSPECTIVA FORZADA</h2>
+            <img src="IMG-20240829-WA0022.JPG" alt="Proyecto 7">
+        </div>
+        <div class="proyecto">
+            <h2>PERSPECTIVA FORZADA</h2>
+            <img src="IMG-20240828-WA0043.JPG" alt="Proyecto 8">
+        </div>
+        <div class="proyecto">
+            <h2>PERSCPECTIVA FORZADA</h2>
+            <img src="IMAGEN.1.png" alt="Proyecto 9">
+        </div>
+        <div class="proyecto">
+            <h2>PERSPECTIVA FORZADA</h2>
+            <img src="Imagen12.png" alt="Proyecto 10">
+        </div>
+    </div>
+
+</body>
+</html>
